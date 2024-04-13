@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#p{
+    font-size: 30px;
+}
+#h2{
+    font-size: 20px;
+}
+#div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: #414141;
+    color: white;
+}
+#div >div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+#div >div > div{
+    display: flex;
+    align-items: center;
+}
+#i{
+ font-size: 20px;
+ color: orange;
+}
+#b{
+    font-size: 30px;
+    color: orange;
+}
+#tinfis > img{
+    width: 170px;
+    margin-left: 30px;
+}
+#obshiy{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+#inp{
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+}
+#lupa{
+    font-size: 23px;
+}
+#idiv > i{
+   font-size: 30px;
+}
+#idiv{
+    width: 129.07px;
+    height: 44.21px;
+}
+#pdiv{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+}
+#pdiv > div{
+    display: flex;
+}
+#pdiv1{
+    width: 30%;
+}
+#pdiv1 > img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+#pdiv2 > p > img{
+    width: 20px;
+    height: 20px;
+    color: #414141;
+    filter: brightness(0.5);
+}
+#pdiv2{
+    width: 70%;
+    justify-content: space-evenly;
+}
+#pdiv2 > p{
+    display: flex;
+    align-items: center;
+}
+#pdiv2 > p:first-child:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#pdiv2 > p:nth-child(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#pdiv2 > p:nth-child(3):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#pdiv2 > p:nth-child(4):hover{
+    cursor: not-allowed;
+}
+#pdiv2 > p:nth-child(5):hover{
+    cursor: not-allowed;
+}
+#pdiv2 > p:last-child:hover{
+    cursor: not-allowed;
+}
+#carusel{
+    display: flex;
+}
+#flush{
+    width: 25%;
+    height: 500px;
+}
+#auto{
+    width: 75%;
+}
+#flush > div > div > h2 > button > p > img{
+    width: 26px;
+}
+#div6{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 15px;
+}
+#div6 > div{
+    width: 49%;
+}
+#div6 > div > img{
+    width: 100%;
+    border-radius: 5px;
+}
+#src > img{
+    width: 160px;
+    height: 160px;
+}
+#h3 >img{
+    width: 178px;
+}
+#ul{
+    list-style: square;
+}
+
+#id > img{
+    width: 80px;
+    height: 48px;
+}
+#id > img:last-child{
+    width: 80px;
+    height: 48px;
+}
+#mobil{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#cur{
+    cursor: pointer;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+#sp{
+    text-align: center;
+    color: crimson;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #tosh > i{
+        display: none;
+    }
+    #tosh > p{
+        display: none;
+    }
+    #p{
+        font-size: 16px;
+    }
+    #h2{
+        font-size: 16px;
+    }
+    #pdiv1{
+        width: 20%;
+    }
+    #pdiv2{
+        width: 80%;
+    }
+    #flush{
+        display: none;
+    }
+    #auto{
+        width: 100%;
+    }
+    #div6{
+        display: flex;
+        flex-direction: column;
+    }
+    #div6 > div{
+        width: 100%;
+        margin-top: 15px;
+    }
+    #src > img:nth-child(4){
+        display: none;
+    }
+    #src > img:nth-child(5){
+        display: none;
+    }
+    #src > img:nth-child(6){
+        display: none;
+    }
+    #src > img:nth-child(7){
+        display: none;
+    }
+    #src > img:nth-child(8){
+        display: none;
+    }
+    #src > img:nth-child(9){
+        display: none;
+    }
+    #src{
+        display: flex;
+        justify-content: space-around;
+    }
+    #mobil{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #mobil > div{
+        width: 50%;
+    }
+    #inp{
+        display: none;
+    }
+    #lupa{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    #pdiv{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    #src > img:nth-child(3){
+        display: none;
+    }
+    #mobil{
+        display: none;
+    }
+}
